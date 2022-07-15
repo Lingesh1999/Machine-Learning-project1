@@ -46,3 +46,18 @@ To create version/commit all change by git
 ```
 git commit -m "message"
 ```
+
+To send version/changes to github
+```
+git push main origin
+```
+
+To check remote URL
+```
+git remote -v
+```
+
+To check Push and Pull Branch
+```
+git branch
+```
