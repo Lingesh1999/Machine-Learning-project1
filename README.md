@@ -61,3 +61,38 @@ To check Push and Pull Branch
 ```
 git branch
 ```
+
+To see the difference from the previous file
+```
+git diff
+```
+
+To setup CI/CD pipeline in heroku we need three informations:
+
+1. Heroku_Email_ID 
+2. Heroku_API_Key  
+3. Heroku_APP_Name 
+
+Build Docker Image
+```
+docker build -t <imagename>:<tagname> .
+```
+> NOTE: the letters in docker image name  should be always lowercase
+
+To list docker_images
+```
+docker images
+```
+
+To run docker Images
+```
+docker run -p 5000:5000 -e PORT=5000 <IMAGE ID>
+```
+To check the running container in docker
+```
+docker ps
+```
+To stop docker container
+```
+docker stop <container_id>
+```
