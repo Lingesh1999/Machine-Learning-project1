@@ -69,9 +69,9 @@ git diff
 
 To setup CI/CD pipeline in heroku we need three informations:
 
-1. Heroku_Email_ID 
-2. Heroku_API_Key  
-3. Heroku_APP_Name 
+1. Heroku_Email_ID = <>
+2. Heroku_API_Key  = <>
+3. Heroku_APP_Name  = <>
 
 Build Docker Image
 ```
