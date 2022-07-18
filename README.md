@@ -96,3 +96,7 @@ To stop docker container
 ```
 docker stop <container_id>
 ```
+to install jupyter Notebook in vscode
+```
+pip install ipykernel
+```
